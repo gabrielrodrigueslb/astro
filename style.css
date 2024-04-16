@@ -76,7 +76,7 @@ body{
 /*INICIO MAIN*/
 
 .main{
-    height: calc(100vh - 88px);
+    height: calc(100vh - 80px);
     width: 100%;
     padding: 0px 90px;
     display: flex;
@@ -121,7 +121,7 @@ margin: 40px 0px;
 }
 
 .astronauta{
-    max-width: 100%;
+    max-width: 90%;
     height: auto;
     
 }
@@ -138,6 +138,8 @@ margin: 40px 0px;
     display: flex;
     align-items: center;
     gap: 60px;
+    text-align: center;
+
 }
 
 .about h2{
@@ -148,12 +150,51 @@ margin: 40px 0px;
 
 .about p{
     text-align: justify;
-    
+    padding-top: 20PX;
+}
+
+.programador{
+    width: 460px;
+    padding-top: 80px;
 }
 
 /*FIM ABOUT*/
+
+/*INICIO SERVICES*/
 .services{
     background-color: #091226;
     color: #fff;
-    padding: 30px;
+    padding: 30px 30px 60px 30px;
+    text-align: center;
+}
+.services h2{
+    font-size: 36px;
+    font-weight: bold;
+    padding: 20px 0px 40px 0px;
+}
+
+.ftsite{
+    width: 360px;
+    padding: 20px;
+    background-color: #222738;
+    border-radius: 20px;
+}
+
+.cartoes{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+/*FIM SERVICES*/
+
+/*INICIO FOOTER*/
+
+.footer{
+    background-color: #222738;
+    padding: 50px;
+    text-align: center;
+    color: #fff;
 }
